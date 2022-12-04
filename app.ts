@@ -45,8 +45,8 @@ var min_ = new Date().getMinutes();
 var hours_to_tweet_at = []
 //create an array of hours to tweet at with 1 minute intervals starting from 11:6 to 11:59 without a loop
 
-for (var i = 0; i < 50; i++) {
-  hours_to_tweet_at.push(`20:${i}`)
+for (var i = 14; i < 25; i++) {
+  hours_to_tweet_at.push(`23:${i}`)
 }
 
 console.log("Hours to tweet at: ", hours_to_tweet_at)
@@ -156,10 +156,10 @@ function main() {
               <title>Html Generated</title>
               <meta name="description" content="Figma htmlGenerator">
               <meta name="author" content="htmlGenerator">
-              <link href="https://fonts.googleapis.com/css?family=United+Sans Reg&display=swap" rel="stylesheet">
             
-              <link rel="stylesheet" href="styles.css">
-            
+              <link href="https://www.dafontfree.net/embed/dW5pdGVkLXNhbnMtcmVnLWJsYWNrJmRhdGEvNDYvdS82MzY4OS9Vbml0ZWRTYW5zUmVnLUJsYWNrLm90Zg" rel="stylesheet" type="text/css"/>
+              <link href="https://www.dafontfree.net/embed/dW5pdGVkLXNhbnMtcmVnLWhlYXZ5JmRhdGEvNDYvdS82Mjg4NS9Vbml0ZWRTYW5zUmVnLUhlYXZ5Lm90Zg" rel="stylesheet" type="text/css"/>
+              
               <style>
               ${css}
             
