@@ -3,7 +3,6 @@ const {execSync} = require('child_process');
 const fetch = require("node-fetch");
 import nodeHtmlToImage from 'node-html-to-image'
 const fs = require('fs');
-import { background_image } from './assets';
 import { css } from './assets';
 
 var players_list = ["Lionel Messi"]
