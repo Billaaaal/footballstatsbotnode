@@ -49,6 +49,8 @@ for (var i = 0; i < 40; i++) {
   hours_to_tweet_at.push(`20:${i}`)
 }
 
+hours_to_tweet_at.push(`20:17`)
+
 console.log("Hours to tweet at: ", hours_to_tweet_at)
 
 
