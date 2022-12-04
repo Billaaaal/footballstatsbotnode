@@ -16,6 +16,7 @@
   "dependencies": {
     "ag-psd": "^15.0.0",
     "canvas": "^2.10.2",
+    "node-font2base64": "^0.8.1",
     "node-html-to-image": "^3.2.4",
     "psd": "^3.4.0",
     "ts-node-dev": "^2.0.0",
