@@ -49,7 +49,7 @@ var min_ = new Date().getMinutes();
 
 
 
-var hours_to_tweet_at = ["21:32", "15:30"]
+var hours_to_tweet_at = ["21:50", "22:0"]
 //create an array of hours to tweet at with 1 minute intervals starting from 11:6 to 11:59 without a loop
 
 //for (var i = 3; i < 30; i++) {
@@ -232,7 +232,8 @@ function main() {
           if (hours_to_tweet_at.includes(`${hours_to_tweet_at[0]}`)) {
           //if (hours_to_tweet_at.includes(`${hour}:${min}`)) {
             //execSync(`sleep ${7 * 60 * 60 + 58 * 60}`);
-            execSync(`sleep ${2.97*60*60}`);
+            //execSync(`sleep ${2.97*60*60}`);
+           execSync(`sleep ${9.5*60}`);
             main();
             //time.sleep();
           }
