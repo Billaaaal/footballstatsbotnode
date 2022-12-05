@@ -1,4 +1,11 @@
-export const css  = `body {
+export const css  = `
+
+
+
+
+
+
+body {
                 width: 1024px;
                 height: 1024px;
                 margin:0;
@@ -40,7 +47,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:109px;
-                font-family:'united-sans-reg-black', sans-serif;
+                font-family: 'United Sans Reg Black';
                 text-align:left;
                 font-size:65px;
                 letter-spacing:0;
@@ -53,7 +60,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:817px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -65,7 +72,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:764px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -77,7 +84,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:710px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -89,7 +96,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:656px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -101,7 +108,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:604px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -113,7 +120,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:549px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -125,7 +132,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:495px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -137,7 +144,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:444px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -149,7 +156,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:388px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -161,7 +168,7 @@ export const css  = `body {
                 position:absolute;
                 left:81px;
                 top:334px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:left;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -173,7 +180,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:821px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -185,7 +192,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:767px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -197,7 +204,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:713px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -209,7 +216,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:658px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -221,7 +228,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:606px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -233,7 +240,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:551px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -245,7 +252,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:495px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -257,7 +264,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:442px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -269,7 +276,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:388px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
@@ -281,7 +288,7 @@ export const css  = `body {
                 position:absolute;
                 left:501px;
                 top:334px;
-                font-family:'united-sans-reg-heavy', sans-serif;
+                font-family: 'United Sans Reg Heavy';
                 text-align:center;
                 font-size:28.422046661376953px;
                 letter-spacing:0;
