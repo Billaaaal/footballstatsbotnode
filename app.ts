@@ -49,7 +49,7 @@ var min_ = new Date().getMinutes();
 
 
 
-var hours_to_tweet_at = ["12:30", "15:30"]
+var hours_to_tweet_at = ["21:32", "15:30"]
 //create an array of hours to tweet at with 1 minute intervals starting from 11:6 to 11:59 without a loop
 
 //for (var i = 3; i < 30; i++) {
