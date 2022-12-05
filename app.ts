@@ -49,12 +49,15 @@ var min_ = new Date().getMinutes();
 
 
 
-var hours_to_tweet_at = []
+var hours_to_tweet_at = ["12:30", "15:30"]
 //create an array of hours to tweet at with 1 minute intervals starting from 11:6 to 11:59 without a loop
 
-for (var i = 3; i < 30; i++) {
-  hours_to_tweet_at.push(`10:${i}`)
-}
+//for (var i = 3; i < 30; i++) {
+//  hours_to_tweet_at.push(`10:${i}`)
+//}
+
+
+
 
 console.log("Hours to tweet at: ", hours_to_tweet_at)
 
@@ -226,13 +229,23 @@ function main() {
           //var tweet = await userClient.v1.tweet(to_tweet).then((response: any) => console.log());//console.log(response));
           
           console.log("Done !");
-          if (hours_to_tweet_at.includes(`${hour}:${min}`)) {
+          if (hours_to_tweet_at.includes(`${hours_to_tweet_at[0]}`)) {
+          //if (hours_to_tweet_at.includes(`${hour}:${min}`)) {
             //execSync(`sleep ${7 * 60 * 60 + 58 * 60}`);
-            execSync(`sleep ${50}`);
+            execSync(`sleep ${2.97*60*60}`);
             main();
             //time.sleep();
-          }else{
-            execSync(`sleep ${5}`);
+          }
+          else if (hours_to_tweet_at.includes(`${hours_to_tweet_at[1]}`)) {
+          //}else if (hours_to_tweet_at.includes(`${hour}:${min}`)) {
+            //execSync(`sleep ${7 * 60 * 60 + 58 * 60}`);
+            execSync(`sleep ${20.97*60*60}`);
+            main();
+            //time.sleep();
+
+          }
+          else{
+            execSync(`sleep ${55}`);
             main();
 
           }
